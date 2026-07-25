@@ -93,9 +93,9 @@ nav:
     - getting-started/post-installation.md
     - 设备支持:
       - getting-started/devices/drivers.md
-      - getting-started/input-method.md
-      - getting-started/applications.md
-      - getting-started/common-command.md
+    - getting-started/input-method.md
+    - getting-started/applications.md
+    - getting-started/common-command.md
   - 概念:
     - Linux基础:
       - concepts/linux/free_software.md
@@ -139,6 +139,8 @@ nav:
     - 桌面环境:
       - desktop/de/kde.md
       - desktop/de/gnome.md
+    - 窗口管理器:
+      - desktop/wm/hyprland.md
   - 兼容性:
     - Win & Linux:
       - compatibility/windows/wine.md
