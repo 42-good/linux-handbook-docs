@@ -8,7 +8,7 @@ on:
       - 'docs/**'
       - 'mkdocs.yml'
       - 'overrides/**'
-      - '.github/workflows/mkdocs-deploy.yml'
+      - '.gitea/workflows/mkdocs-deploy.yml'
   workflow_dispatch:
 
 permissions:
