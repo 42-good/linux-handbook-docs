@@ -135,7 +135,7 @@ nav:
       - distros/arch/cachy.md
     - distros/nixos.md
   - 桌面:
-    - desktop/desktop.md
+    - 首页: desktop/desktop.md
     - 桌面环境:
       - desktop/de/kde.md
       - desktop/de/gnome.md
