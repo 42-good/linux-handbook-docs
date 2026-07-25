@@ -1,6 +1,6 @@
 # Wine
 
-Wine （“Wine Is Not an Emulator” 的首字母缩写）是一个能够在多种 POSIX-compliant 操作系统（诸如 Linux，macOS 及 BSD 等）上运行 Windows 应用的兼容层。Wine 不是像虚拟机或者模拟器一样模仿内部的 Windows 逻辑，而是將 Windows API 调用翻译成为动态的 POSIX 调用，免除了性能和其他一些行为的内存占用，让你能够干净地集合 Windows 应用到你的桌面。
+Wine （“Wine Is Not an Emulator” 的首字母缩写）是一个能够在多种操作系统上运行 Windows 应用的兼容层。Wine 不是像虚拟机或者模拟器一样模仿内部的 Windows 逻辑，而是將 Windows API 调用翻译成为动态的 POSIX 调用，免除了性能和其他一些行为的内存占用，让你能够干净地集合 Windows 应用到你的桌面。
 
 !!! warning "警告"
     Wine无法保证Windows应用能够完美运行。在使用Wine之前，我们建议您首先到Wine官网的[数据库](https://appdb.winehq.org/)查看所需应用的兼容状况。若兼容性问题较大，我们建议您使用虚拟机方式运行应用。
@@ -23,7 +23,7 @@ Wine （“Wine Is Not an Emulator” 的首字母缩写）是一个能够在多
 
 ### Lutris
 
-或者，想要更便捷的方法，您也可以使用[Lutris](https://flathub.org/zh-Hans/apps/net.lutris.Lutris)（包名`lutris`）进行安装。
+或者，想要更便捷的方法，您也可以使用[Lutris](https://flathub.org/zh-Hans/apps/net.lutris.Lutris)（包名`lutris`）进行安装。尽管Lutris是Linux上的游戏管理软件，但它也可以用于管理并运行Windows软件。
 
 !!! warning "警告"
     Lutris需要从Github下载依赖，在中国大陆网络环境可能遇到阻碍。

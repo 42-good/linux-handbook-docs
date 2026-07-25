@@ -12,6 +12,12 @@ GNOME桌面设计以简洁专注为核心理念，采用活动概览替代传统
 
 ## 使用
 
+### 安装
+
+- Debian: `sudo apt install gnome`
+- Fedora: `sudo dnf group install gnome-desktop`
+- Arch: `sudo pacman -S gnome`
+
 ???+ note "找不到应用栏？"
     GNOME默认隐藏应用栏，将鼠标置于屏幕左上角即可换出。以下“扩展”部分会提供优化任务栏逻辑用的扩展。
 

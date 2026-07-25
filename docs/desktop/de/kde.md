@@ -12,6 +12,12 @@ KDE Plasma 是兼具现代美感与极致灵活性的桌面环境。其界面采
 
 ## 使用
 
+### 安装
+
+- Debian: `sudo apt install plasma-desktop`
+- Fedora: `sudo dnf group install kde-desktop`
+- Arch: `sudo pacman -S plasma-desktop`
+
 ### Kvantum
 
 Kvantum（包名为`kvantum`）是一个适用于KDE桌面环境的Qt主题引擎，用于自定义桌面外观和窗口样式。由于KDE的绝大多数预装应用都基于Qt，因此Kvantum十分适合于优化KDE的桌面外观，并能与KDE的丰富主题配合使用。
