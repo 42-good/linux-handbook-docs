@@ -92,10 +92,10 @@ nav:
     - getting-started/install.md
     - getting-started/post-installation.md
     - 设备支持:
-    - getting-started/devices/drivers.md
-    - getting-started/input-method.md
-    - getting-started/applications.md
-    - getting-started/common-command.md
+      - getting-started/devices/drivers.md
+      - getting-started/input-method.md
+      - getting-started/applications.md
+      - getting-started/common-command.md
   - 概念:
     - Linux基础:
       - concepts/linux/free_software.md
@@ -117,9 +117,9 @@ nav:
       - concepts/package_managers/dnf.md
       - concepts/package_managers/pacman.md
       - concepts/package_managers/flatpak.md
-  - 发行版: 
+  - 发行版:
     - distros/distro.md
-    - Debian系: 
+    - Debian系:
       - distros/debian/debian.md
       - distros/debian/ubuntu.md
       - distros/debian/linuxmint.md
@@ -137,12 +137,11 @@ nav:
   - 桌面:
     - desktop/desktop.md
     - 桌面环境:
-        - desktop/de/kde.md
-        - desktop/de/gnome.md
+      - desktop/de/kde.md
+      - desktop/de/gnome.md
   - 兼容性:
-      - Win & Linux:
-        - compatibility/windows/wine.md
-#        - compatibility/windows/steam.md
-#      - 跨发行版:
-    
+    - Win & Linux:
+      - compatibility/windows/wine.md
+      # - compatibility/windows/steam.md
+    # - 跨发行版:
   - 关于: about.md
