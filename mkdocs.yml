@@ -92,7 +92,7 @@ nav:
     - getting-started/install.md
     - getting-started/post-installation.md
     - 设备支持:
-      - getting-started/devices/drivers.md
+    - getting-started/devices/drivers.md
     - getting-started/input-method.md
     - getting-started/applications.md
     - getting-started/common-command.md
@@ -104,6 +104,7 @@ nav:
       - concepts/linux/btrfs.md
       - concepts/linux/de.md
       - concepts/linux/wm.md
+      - concepts/linux/dotfiles.md
     - 操作系统:
       - concepts/operating_system/bios.md
       - concepts/operating_system/disk_partition_table.md
@@ -134,7 +135,8 @@ nav:
       - distros/arch/cachy.md
     - distros/nixos.md
   - 桌面:
-      - 桌面环境:
+    - desktop/desktop.md
+    - 桌面环境:
         - desktop/de/kde.md
         - desktop/de/gnome.md
   - 兼容性:
