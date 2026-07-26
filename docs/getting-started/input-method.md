@@ -1,5 +1,7 @@
 # 输入法
 
+## 输入法框架
+
 Linux下的输入法框架主要有以下两种选择：
 
  - Fcitx (包名`fcitx5`): 轻量，启动快，建议KDE、Sway、Hyprland等用户使用  
@@ -35,7 +37,7 @@ Linux下的输入法框架主要有以下两种选择：
 
 若您是KDE用户，请打开KDE设置，搜索虚拟键盘，并选中“Fcitx5”。
 
-若您是GNOME用户，您需要额外安装`gnome-tweaks`，在“优化-开机启动程序”中添加“Fcitx5”。我们同时建议您安装这个[GNOME扩展](https://extensions.gnome.org/extension/261/kimpanel/)。
+若您是GNOME用户，您需要额外安装`gnome-tweaks`，在“优化-开机启动程序”中添加“Fcitx5”，或者安装`fcitx5-autostart`来使Fcitx5自启动。我们同时建议您安装这个[GNOME扩展](https://extensions.gnome.org/extension/261/kimpanel/)。
 
 若您是其他桌面环境用户，您也可以通过设置XDG自动启动或编辑配置文件的方式来使得Fcitx5开机自启。（WIP）
 
@@ -46,7 +48,9 @@ IBus会自动与GNOME集成，所以GNOME用户无须进行额外操作。
 
 若您是KDE用户，请打开KDE设置，搜索虚拟键盘，并选中“IBus”。
 
----
+## 设置默认框架
+
+在Debian系发行版中，安装输入法后可能需要安装并用终端运行`im-config`来选择默认输入法框架。在Fedora中，您可能需要使用`imsettings`来设置。
 
 ## 中文输入法框架
 
