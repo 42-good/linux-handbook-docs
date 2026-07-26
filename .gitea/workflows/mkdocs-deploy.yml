@@ -48,8 +48,10 @@ jobs:
           TARGET_REPO: https://github.com/LinuxCabin/handbook-site
           TARGET_BRANCH: gh-pages
           DEPLOY_TOKEN: ${{ secrets.DEPLOY_KEY }}
+          CUSTOM_DOMAIN: hb.091209.xyz
         run: |
           cd site
+          echo "${{ env.CUSTOM_DOMAIN }}" > CNAME   # 创建 CNAME 文件
           git init
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
