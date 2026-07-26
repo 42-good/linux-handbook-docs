@@ -22,8 +22,8 @@
 
 不过，下面有一些需要您在这之前检查的事情：
 
-1. 我日常所需的软件是否有Linux版本/替代品？  
-   如果没有，您可以参考“兼容性”这一章节(WIP)。
+1. 我日常所需的软件是否有Linux版本/替代品/兼容选项？  
+   您可以到到Wine官网的[数据库](https://appdb.winehq.org/)、[Are We Anti-Cheat Yet?](https://areweanticheatyet.com/)以及[Can We Tux?](https://tux.red/)查阅。
 2. 我能否忍受可能会带来的不便与学习成本？  
    这包括可能会和终端打一部分交道，以及可能存在的不稳定性风险。
 3. 我能否完全脱离Windows？  
