@@ -12,12 +12,12 @@ Debian是一个由全球志愿者社区维护的自由开源操作系统。它�
  - 发行者：Debian计划
  - 官网：https://www.debian.org/
  - 支持的系统架构：x86_64
- - 自由软件：是/否
+ - 自由软件：是（部分自由）
  - 镜像下载地址：
     - TUNA: https://mirrors.tuna.tsinghua.edu.cn/debian-cd/
     - USTC: https://mirrors.ustc.edu.cn/debian-cd/
     - MirrorZ: https://mirrors.cernet.edu.cn/debian-cd/
- - 包管理器：apt
+ - 包管理器：[apt](../../concepts/package_managers/apt.md)
  - 更新方式：版本/滚动
  - 自动换源：302
  - 图形安装界面：是

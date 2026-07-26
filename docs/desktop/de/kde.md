@@ -10,13 +10,13 @@ KDE Plasma 是兼具现代美感与极致灵活性的桌面环境。其界面采
 
 ![KDE](https://kde.org/announcements/plasma/6/6.7.0/fullscreen_with_apps.png)
 
-## 使用
-
-### 安装
+## 安装
 
 - Debian: `sudo apt install plasma-desktop`
 - Fedora: `sudo dnf group install kde-desktop`
 - Arch: `sudo pacman -S plasma-desktop`
+
+## 使用
 
 ### Kvantum
 

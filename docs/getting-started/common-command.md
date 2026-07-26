@@ -90,3 +90,14 @@
 ---
 
 chmod, chown等(WIP)
+
+## 系统维护工具
+
+### nano
+
+nano（包名`nano`）是广受赞誉的终端文本编辑器，拥有简单易操作的界面，适合新手用来通过终端编辑系统配置文件。
+
+例如：`sudo nano /etc/sudoers`指以超级管理员权限，用nano修改`/etc/sudoers`。
+
+???+ note "权限"
+    编辑部分配置文件时需要`sudo`提权。

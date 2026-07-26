@@ -21,7 +21,7 @@
 
 ## Flatpak
 
-Flatpak是新一代Linux软件管理工具。其采用沙箱式设计，使得软件能够兼容多数发行版。并且，基于Flatpak的Flathub是Linux上极其重要的应用商店，深度集成于KDE Discover, GNOME。
+[Flatpak](../concepts/package_managers/flatpak.md)是新一代Linux软件管理工具。其采用沙箱式设计，使得软件能够兼容多数发行版。并且，基于Flatpak的Flathub是Linux上极其重要的应用商店，深度集成于KDE Discover, GNOME。
 
 **对于用户软件，我们推荐您使用Flatpak进行安装。**
 
@@ -64,7 +64,7 @@ Flatpak是新一代Linux软件管理工具。其采用沙箱式设计，使得�
 
 ### Win -> Linux
 
-若您的Linux使用ext文件系统，则Windows会由于不支持ext而无法访问Linux的文件。
+若您的Linux使用ext[文件系统](../concepts/operating_system/file_system.md)，则Windows会由于不支持ext而无法访问Linux的文件。
 
 您只需在Windows下载安装[Ext4Fsd](https://www.accum.se/~bosse/ext2fsd/0.71/Ext2Fsd-0.71-setup.exe)即可解决。
 

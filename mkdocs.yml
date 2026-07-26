@@ -64,6 +64,11 @@ markdown_extensions:
   - toc:
       permalink: true
 
+extra_javascript:
+  - assets/js/wiki_hover.js
+extra_css:
+  - assets/css/tippy.css
+
 plugins:
   - search:
       lang: zh
@@ -100,11 +105,6 @@ nav:
     - Linux基础:
       - concepts/linux/free_software.md
       - concepts/linux/distro.md
-      - concepts/linux/lvm.md
-      - concepts/linux/btrfs.md
-      - concepts/linux/de.md
-      - concepts/linux/wm.md
-      - concepts/linux/dotfiles.md
     - 操作系统:
       - concepts/operating_system/bios.md
       - concepts/operating_system/disk_partition_table.md
@@ -117,6 +117,15 @@ nav:
       - concepts/package_managers/dnf.md
       - concepts/package_managers/pacman.md
       - concepts/package_managers/flatpak.md
+    - 文件系统:
+      - concepts/file_system/lvm.md
+      - concepts/file_system/btrfs.md
+    - 桌面:
+      - concepts/desktop/de.md
+      - concepts/desktop/tiling_desktop.md
+      - concepts/desktop/wm.md
+      - concepts/desktop/desktop_shell.md
+      - concepts/desktop/dotfiles.md
   - 发行版:
     - distros/distro.md
     - Debian系:
@@ -141,6 +150,7 @@ nav:
       - desktop/de/gnome.md
     - 窗口管理器:
       - desktop/wm/hyprland.md
+      - desktop/wm/niri.md
   - 兼容性:
     - Win & Linux:
       - compatibility/windows/wine.md
