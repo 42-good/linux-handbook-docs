@@ -2,12 +2,14 @@
 
 Steam是由Valve于2003年推出的全球最大的数字游戏发行与社交平台之一。它起初只是Valve自家游戏的自动更新工具，现已发展成为一个集游戏购买、下载、社区互动、游戏直播等多种功能于一体的综合性平台。
 
-在开始之前，我们建议您查阅如下数据库来了解游戏兼容性:
+!!! warning "兼容性"
 
-- [Can We Tux?](https://tux.red/)
-- [Are We Anti-Cheat Yet?（英文）](https://areweanticheatyet.com/)
-- [Can I Play on Linux?（英文）](https://caniplayonlinux.com/)
-- [ProtonDB（英文）](https://www.protondb.com/)
+    在开始之前，我们建议您查阅如下数据库来了解游戏兼容性:
+
+    - [Can We Tux?](https://tux.red/)
+    - [Are We Anti-Cheat Yet?（英文）](https://areweanticheatyet.com/)
+    - [Can I Play on Linux?（英文）](https://caniplayonlinux.com/)
+    - [ProtonDB（英文）](https://www.protondb.com/)
 
 ## 安装
 
@@ -78,6 +80,11 @@ flatpak install com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 
 您也可以通过[ProtonPlus]来管理您的Proton。要安装Proton GE，您只需打开下拉框选择版本（建议最新）即可。
 
+???+ note "反作弊"
+    安装 Lutris 或者 Steam 后可以用 [ProtonPlus](https://flathub.org/zh-Hans/apps/com.vysp3r.ProtonPlus) 安装[晨曦酒庄 Proton](https://dawn.wine/dawn-winery/dwproton)（dw-proton）来获得对国内二游反作弊的更佳兼容，在兼容层设置内选用下载好的 dw-proton 即可。
+
+    > 来自[Li Pengsheng](https://docs.aflare.top/)
+
 !!! warning "网络条件"
     本方法需要通过Github获取Proton GE，因而对网络条件有一定要求。
 
@@ -94,4 +101,6 @@ flatpak install com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 
 安装Proton GE后，请按照上述操作应用Proton GE。
 
-## 
+## 运行Windows软件
+
+Steam也可以用于运行Windows软件。（WIP）

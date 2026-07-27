@@ -4,11 +4,13 @@ Wine （“Wine Is Not an Emulator” 的首字母缩写）是一个能够在多
 
 !!! warning "警告"
     Wine无法保证Windows应用能够完美运行。在使用Wine之前，我们建议您首先查阅以下数据库：
+
     - [Wine官网数据库（英文）](https://appdb.winehq.org/)
     - [Can We Tux?](https://tux.red/)
     - [Are We Anti-Cheat Yet?（英文）](https://areweanticheatyet.com/)
     - [Can I Play on Linux?（英文）](https://caniplayonlinux.com/)
     - [ProtonDB（英文）](https://www.protondb.com/)
+
     若兼容性问题较大，我们建议您使用虚拟机方式运行应用。
 
 ## 安装
@@ -36,11 +38,10 @@ Wine （“Wine Is Not an Emulator” 的首字母缩写）是一个能够在多
 
 安装好Lutris后，首次启动时，Lutris会自动补全Proton, DXVK, VKD3D等依赖。安装好之后，您可以将Windows软件作为游戏添加至库中。
 
-#### 反作弊
+???+ note "反作弊"
+    安装 Lutris 或者 Steam 后可以用 [ProtonPlus](https://flathub.org/zh-Hans/apps/com.vysp3r.ProtonPlus) 安装[晨曦酒庄 Proton](https://dawn.wine/dawn-winery/dwproton)（dw-proton）来获得对国内二游反作弊的更佳兼容，在兼容层设置内选用下载好的 dw-proton 即可。
 
-安装 Lutris 或者 Steam 后可以用 [ProtonPlus](https://flathub.org/zh-Hans/apps/com.vysp3r.ProtonPlus) 安装[晨曦酒庄 Proton](https://dawn.wine/dawn-winery/dwproton)（dw-proton）来获得对国内二游反作弊的更佳兼容，在兼容层设置内选用下载好的 dw-proton 即可。
-
-> 来自[Li Pengsheng](https://docs.aflare.top/)
+    > 来自[Li Pengsheng](https://docs.aflare.top/)
 
 ### Bottles
 

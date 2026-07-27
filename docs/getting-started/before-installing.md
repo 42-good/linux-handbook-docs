@@ -87,12 +87,12 @@
 
 ## 调配分区
 
-我们建议您通过专业的[分区](../concepts/operating_system/partition.md)工具（如[DiskGenius](https://www.diskgenius.cn/)和Windows的磁盘管理单元）进行分区。您需要用分区工具在电脑硬盘上腾出60GB以上（建议值）的**空闲**空间。我们不建议直接在DiskGenius等WIndows下软件创建分区，而是在安装时由安装程序进行创建，这可以保证系统的稳定性和分区一致性。
+我们建议您通过专业的[分区](../concepts/operating_system/partition.md)工具——如[DiskGenius](https://www.diskgenius.cn/)（[教程](https://www.diskgenius.cn/help/partresizing.php)）和Windows的磁盘管理单元（[教程](https://freeswzhcn.codeberg.page/site/posts/%E4%B8%BA%20GNU-Linux%20%E5%87%86%E5%A4%87%E5%8F%8C%E5%90%AF%E5%8A%A8%E5%88%86%E5%8C%BA%E2%80%94%E2%80%94Microsoft%20Windows/)）——进行分区。您需要用分区工具在电脑硬盘上腾出60GB以上（建议值）的**空闲**空间。我们不建议直接在DiskGenius等WIndows下软件创建分区，而是在安装时由安装程序进行创建，这可以保证系统的稳定性和分区一致性。
 
 我们建议您在操作完分区后用其他设备记录您磁盘的分区图示/顺序，这在安装系统时非常有用。
 
 !!! warning "警告"
-    请不要将Linux安装到任何NTFS文件系统的分区，这将导致你的系统完全无法启动！Linux对NTFS的支持尚不完善！我们不建议使用Linux来调整NTFS分区！！！
+    请不要将Linux安装到任何NTFS[文件系统](../concepts/operating_system/file_system.md)的分区，这将导致你的系统完全无法启动！Linux对NTFS的支持尚不完善！我们不建议使用Linux来调整NTFS分区！！！
     
     任何分区操作都存在风险，请您在操作之前确保已经备份所用磁盘中的重要数据到可靠的外部存储！！！
 
