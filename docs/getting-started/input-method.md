@@ -15,6 +15,7 @@ Linux下的输入法框架主要有以下两种选择：
     - 方案一：在终端中编辑`/etc/environment`（可输入`sudo nano /etc/environment`），添加如下行：
 
     ```
+    # 如果是IBus输入法请将fcitx替换为ibus
     GTK_IM_MODULE=fcitx
     QT_IM_MODULE=fcitx
     XMODIFIERS=@im=fcitx
@@ -35,11 +36,14 @@ Linux下的输入法框架主要有以下两种选择：
 
 安装后，请打开Fcitx5配置，点击右侧加号、箭头来添加Rime或调整输入法顺序。若没有出现，请您重启系统。
 
-若您是KDE用户，请打开KDE设置，搜索虚拟键盘，并选中“Fcitx5”。
+若您是KDE用户，请打开KDE设置，打开系统设置-键盘-虚拟键盘，并选中“Fcitx5”。并在语言和时间-输入法选择“中州韵”。
 
 若您是GNOME用户，您需要额外安装`gnome-tweaks`，在“优化-开机启动程序”中添加“Fcitx5”，或者安装`fcitx5-autostart`来使Fcitx5自启动。我们同时建议您安装这个[GNOME扩展](https://extensions.gnome.org/extension/261/kimpanel/)。
 
-若您是其他桌面环境用户，您也可以通过设置XDG自动启动或编辑配置文件的方式来使得Fcitx5开机自启。（WIP）
+若您是其他桌面环境用户，您也可以通过设置XDG自动启动或编辑配置文件的方式来使得Fcitx5开机自启。
+
+- Hyprland: `exec-once = fcitx5 --replace -d`
+- Niri: 在配置文件中添加`spawn-at-startup "fcitx5" "-d"`
 
 
 ### IBus
@@ -82,6 +86,8 @@ ibus-rime
 对于简体中文的输入，我们推荐您使用[雾凇拼音](https://github.com/iDvel/rime-ice)。
 
 您可以手动添加Rime配方，也可以通过其提供的Plum工具来添加。在安装配方后，请通过状态栏或在输入框中按“Ctrl+`”或F4来切换输入方案。
+
+对于Arch用户来说，您只需要安装`rime-ice-git`包（AUR/ArchLinuxCN）即可。
 
 #### 使用Plum
 

@@ -4,6 +4,8 @@
 
 [翻译版Wiki](https://docs.akass.cn/niri/)
 
+配置文件: `~/.config/niri/config.kdl`
+
 ![Niri](https://www.phoronix.net/image.php?id=2026&image=niri_2604_2)
 
 ## 概述

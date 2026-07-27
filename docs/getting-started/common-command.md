@@ -87,9 +87,34 @@
     1. 若 `dir2` 存在，则 `dir1` 会被移动到 `dir2` 中。
     2. 若 `dir2` 不存在，则 `dir1` 会被重命名为 `dir2` 。
 
----
+### systemctl
 
-chmod, chown等(WIP)
+用于（在基于systemd的发行版中）管理系统服务。
+
+例如：
+- `sudo systemctl start xxx` 启动某服务
+- `sudo systemctl stop xxx` 终止某服务
+- `sudo systemctl enable xxx` 启用某服务（自启动，不会立即启动）
+- `sudo systemctl disable xxx` 禁用某服务（不再自启动，不会立即终止）
+
+### chmod
+
+用于更改用户对文件的权限。
+
+??? note "原理"
+    在Linux中，文件权限分为r（读），w（写），x（执行）三类。由于chmod采用二进制表示权限，代表三种权限的数字分别为4，2，1。如果要表示权限的组合，只需要将数字相加即可。
+
+    同时，文件权限通常以三位数表示，每一位分别代表拥有者、用户组与其他用户。
+    
+    例如：777代表所有人都可读取，更改，执行该文件，774代表仅所有者与用户组能够读取，更改，执行，其他用户仅可读取。
+
+例如：
+- `chmod 777 file` 使得所有人都可读取，更改，执行该文件。
+- `chmod -R 777 dir` 递归目录，使得所有人都可读取，更改，执行该目录下的文件与文件夹。
+
+chmod中间的数字表示权限。
+
+chmod的用法较为复杂，您也可以参考[Runoob的教程](https://www.runoob.com/linux/linux-comm-chmod.html)。
 
 ## 系统维护工具
 

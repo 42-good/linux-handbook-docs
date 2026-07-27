@@ -117,6 +117,7 @@ nav:
       - concepts/package_managers/dnf.md
       - concepts/package_managers/pacman.md
       - concepts/package_managers/flatpak.md
+      - concepts/package_managers/appimage.md
     - 文件系统:
       - concepts/file_system/lvm.md
       - concepts/file_system/btrfs.md

@@ -2,6 +2,8 @@
 
 [官方Wiki（英文）](https://wiki.hypr.land/)
 
+配置文件: `~/.config/hypr/hyprland.conf`
+
 ![Hyprland](https://hypr.land/ricing_competitions/1/flicko.webp)
 
 ## 概述
