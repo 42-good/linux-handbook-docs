@@ -19,7 +19,9 @@ Arch Linux 是 Linux 社区中最受欢迎的独立滚动更新（Rolling Releas
     - MirrorZ: https://mirrors.cernet.edu.cn/archlinux/iso/
  - 包管理器：[pacman](../../concepts/package_managers/pacman.md)
 !!! warning "警告"
-    Arch 严禁“部分升级”（Partial Upgrade）。请勿在未同步升级全系统的情况下单独安装或更新某个软件，否则极易导致系统依赖断裂造成所谓的 **“滚挂”** ！此外，推荐配置 **AUR (Arch User Repository)** 并配合 yay 或 paru 等助手使用，可以提升使用体验。
+   Arch 严禁“部分升级”（Partial Upgrade）。请勿在未同步升级全系统的情况下单独安装或更新某个软件，否则极易导致系统依赖断裂造成所谓的 **“滚挂”** ！
+   
+   在每次更新系统时，请一定阅读Arch Linux官网新闻，以查阅是否需要手动干预的软件包。
  - 更新方式：滚动
  - 自动换源：是
  - 图形安装界面：否
@@ -28,3 +30,35 @@ Arch Linux 是 Linux 社区中最受欢迎的独立滚动更新（Rolling Releas
     - USTC: https://mirrors.ustc.edu.cn/help/archlinux.html
     - MirrorZ: https://help.mirrors.cernet.edu.cn/archlinux/
 
+## 注意事项
+
+### Arch Linux CN
+
+Arch Linux CN由Arch Linux中文社区维护，包含多数中国用户常用的软件包、字体等等。
+
+要使用Arch Linux CN，您需要编辑`/etc/pacman.conf`文件，并添加如下内容。
+
+```
+[archlinuxcn]
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+Server = https://mirrors.cernet.edu.cn/archlinuxcn/$arch
+
+```
+然后运行`sudo pacman -S archlinuxcn-keyring`导入GPG Key。
+
+### AUR
+
+AUR (Arch User Repository)是当今Linux软件包数目第二多的软件仓库，具有丰富多样的应用可供安装，包括但不限于QQ、微信、达芬奇等。
+
+要使用AUR，您需要安装AUR助手，目前有`yay`与`paru`可供选择。不过请注意，两者并不直接存在与Arch Linux官方软件仓库中，我们建议您首先添加Arch Linux CN软件仓库，之后用`pacman`安装任意一个。或者，您也可以参照Arch Wiki的教程：[Yay](https://wiki.archlinuxcn.org/zh-cn/Yay)
+
+同时，您可能需要安装`base-devel`来编译软件。
+
+???+ note "执行者"
+   不建议使用`sudo`来执行AUR助手。
+
+!!! warning "网络问题" 
+   AUR本质上拖管的是PKGBUILD文件，可以被看作是应用程序的构建脚本，因而部分软件在安装时需要从Github拉取上游软件包，这使得部分软件的安装进度十分缓慢。
+
+   要解决这一问题，您可以手动编辑PKGBUILD来更换加速链接，也可以参考[本篇教程](https://zhuanlan.zhihu.com/p/688340777)。

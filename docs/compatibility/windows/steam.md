@@ -78,7 +78,7 @@ flatpak install com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 
 #### ProtonPlus
 
-您也可以通过[ProtonPlus]来管理您的Proton。要安装Proton GE，您只需打开下拉框选择版本（建议最新）即可。
+您也可以通过[ProtonPlus](https://flathub.org/zh-Hans/apps/com.vysp3r.ProtonPlus)来管理您的Proton。要安装Proton GE，您只需打开下拉框选择版本（建议最新）即可。
 
 ???+ note "反作弊"
     安装 Lutris 或者 Steam 后可以用 [ProtonPlus](https://flathub.org/zh-Hans/apps/com.vysp3r.ProtonPlus) 安装[晨曦酒庄 Proton](https://dawn.wine/dawn-winery/dwproton)（dw-proton）来获得对国内二游反作弊的更佳兼容，在兼容层设置内选用下载好的 dw-proton 即可。
@@ -103,4 +103,11 @@ flatpak install com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 
 ## 运行Windows软件
 
-Steam也可以用于运行Windows软件。（WIP）
+Steam也可以用于运行Windows软件。但我们并**不建议**通过这种方式来运行，而是使用Lutris。
+
+要添加Windows软件，您可以选择上方状态栏的游戏-添加非Steam游戏-浏览，选择对应的安装程序。
+
+安装好程序后，要打开应用，请更改设置-目标：
+- Flatpak版本：`~/.var/app/com.valvesoftware.Steam/data/Steam/steamapps/compatdata/游戏Id/pfx/drive_c/` 在该目录下找到安装路径的可执行文件
+- 包版本：`~/.local/share/Steam/steamapps/compatdata/游戏Id/pfx/drive_c/` 在该目录下找到安装路径的可执行文件
+
