@@ -1,6 +1,7 @@
 # Pacman
 
 全称：Package Manager
+包格式：pacman
 
 ## 解释
 
