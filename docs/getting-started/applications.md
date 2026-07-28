@@ -4,6 +4,31 @@
 
 或者，您也可以通过发行版自带应用商店或第三方应用商店（如[星火应用商店](https://www.spark-app.store/)）进行下载。
 
+## 安装注意事项
+
+> [!TIP]
+> 请选择适用于你的发行版的软件安装包
+> Debian 系列: debian, mint, ubuntu, kubuntu等 => `deb包`
+> RHEL 系列: rhel, fedora, rocky等 => `rpm包`
+>
+> 某些发行版支持双击安装包进行安装， 使用文件管理器和鼠标即可
+
+- Debian 系列命令行安装
+apt 装 deb 包
+
+```bash
+# 这里比如说我下载了一个 Wechat
+sudo apt install ./WeChatLinux_x86_64.deb -y
+# 必须要写 ./ 说明是当前目录的
+```
+
+- RHEL 系列命令行安装
+dnf 装 rpm 包
+
+```bash
+sudo dnf install ./WeChatLinux_x86_64.rpm -y
+```
+
 ## 聊天应用
 
 ### QQ
