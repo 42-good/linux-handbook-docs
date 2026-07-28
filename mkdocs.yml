@@ -161,5 +161,6 @@ nav:
       - compatibility/windows/steam.md
     # - 跨发行版:
   - 应用:
+    - applications/openclaw.md
     - applications/miniconda.md
   - 关于: about.md

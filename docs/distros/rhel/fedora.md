@@ -86,8 +86,8 @@ Fedora由于版权限制，无法内置H264/H265编解码器，因此需要手�
 ### Fedora Flatpak仓库
 
 若您发现自己的KDE Discover、GNOME 应用 一直在转圈加载，又或是安装Flatpak时一直在查找匹配项，那么可能是Fedora的官方Flatpak源在拖后腿。
-n
-要解决这个问题，您可以在终端中运行`sudo flatpak remote-delete fedora`。
+
+要解决这个问题，您可以在终端中运行如下指令：`sudo flatpak remote-delete fedora`。
 
 !!! warning "针对不可变发行版"
      Fedora的不可变版本中，有部分系统应用的来源为Fedora官方Flatpak仓库。所以，我们建议您在提示移除源会删除软件时，记录好将要删除软件的包名。在删除后，您可以通过官方Flathub仓库重新安装。
