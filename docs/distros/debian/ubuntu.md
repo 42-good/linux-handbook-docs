@@ -106,7 +106,7 @@ Ubuntu是当今最受认可的Linux发行版，也是中国国家操作系统基
 
 Snap是Canonical推出的Linux通用包管理工具。与Flatpak相同，采用沙箱化设计来保证软件极其依赖的正常运行。
 
-不过，由于Canonical的商业操作，使用apt安装部分软件会被Snap劫持，同时由于Snap本身的性能优化不足，因而其被部分社区用户唾弃，Linux Mint也剔除了Snap。
+不过，由于Canonical的商业操作，使用`apt`安装部分软件会被Snap劫持，同时由于Snap本身的性能优化不足，因而其被部分社区用户唾弃，Linux Mint也剔除了Snap。
 
 Snap的移除步骤十分繁琐。首先，你必须按照顺序（先应用，后依赖）卸载所有Snap应用:
 ```bash

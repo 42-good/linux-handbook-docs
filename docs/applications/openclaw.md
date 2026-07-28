@@ -4,7 +4,7 @@
 
 ## 安装
 
-[OpenClaw的官方安装教程]提供了安装脚本，但由于网络原因，体验可能不尽人意。我们在此讲解npm手动安装。
+[OpenClaw的官方安装教程](https://openclaws.io/zh/install)提供了安装脚本，但由于网络原因，体验可能不尽人意。我们在此讲解npm手动安装。
 
 ### 安装Node.js
 
