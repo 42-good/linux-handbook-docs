@@ -41,8 +41,6 @@ Wine （“Wine Is Not an Emulator” 的首字母缩写）是一个能够在多
 ???+ note "反作弊"
     安装 Lutris 或者 Steam 后可以用 [ProtonPlus](https://flathub.org/zh-Hans/apps/com.vysp3r.ProtonPlus) 管理[Proton](./steam.md#proton)。安装[晨曦酒庄 Proton](https://dawn.wine/dawn-winery/dwproton)（dw-proton）来获得对国内二游反作弊的更佳兼容，在兼容层设置内选用下载好的 dw-proton 即可。
 
-    > 来自[Li Pengsheng](https://docs.aflare.top/)
-
 ### Bottles
 
 或者，您还可以通过[Bottles](https://flathub.org/zh-Hans/apps/com.usebottles.bottles)管理Windows软件。

@@ -83,8 +83,6 @@ flatpak install com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 ???+ note "反作弊"
     安装 Lutris 或者 Steam 后可以用 [ProtonPlus](https://flathub.org/zh-Hans/apps/com.vysp3r.ProtonPlus) 安装[晨曦酒庄 Proton](https://dawn.wine/dawn-winery/dwproton)（dw-proton）来获得对国内二游反作弊的更佳兼容，在兼容层设置内选用下载好的 dw-proton 即可。
 
-    > 来自[Li Pengsheng](https://docs.aflare.top/)
-
 !!! warning "网络条件"
     本方法需要通过Github获取Proton GE，因而对网络条件有一定要求。
 

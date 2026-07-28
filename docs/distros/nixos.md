@@ -40,5 +40,3 @@ NixOS LiveCD的安装程序不提供镜像源选择，并且由于LiveCD的只�
      - MirrorZ: https://mirrors.cernet.edu.cn/nix-channels/store
 
 或者，您也可以采用[NixOS-LiveCD-CN（Github）](http://github.com/zjm54321/NixOS-LiveCD-CN)项目的镜像来加速安装。其内置了镜像源，对国内用户较为友好。
-
-> 来自[Li Pengsheng](https://docs.aflare.top/)
