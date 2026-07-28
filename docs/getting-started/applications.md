@@ -6,26 +6,37 @@
 
 ## 安装注意事项
 
-- 软件包选择
-  - Debian 系列: debian, mint, ubuntu, kubuntu等 => `deb包`
-  - RHEL 系列: rhel, fedora, rocky等 => `rpm包`
+### 软件包选择
+  - Debian 系: Debian, Mint, Ubuntu, Kubuntu等 => `deb`
+  - 红帽系: Fedora, RHEL, Rocky等 => `rpm`
+  - Arch 系: 通常不需要用包(`pacman`)安装
+### 安装软件包
 
-> 某些发行版支持双击安装包进行安装， 使用文件管理器和鼠标即可
+> 某些桌面环境支持双击安装包进行安装。
 
-- Debian 系列命令行安装
-apt 装 deb 包
+#### Debian 系
+使用 `apt` 或 `dpkg` 装 `deb` 包
 
 ```bash
 # 这里比如说我下载了一个 Wechat
 sudo apt install ./WeChatLinux_x86_64.deb -y
 # 必须要写 ./ 说明是当前目录的
+# 或者也可以用dpkg
+sudo dpkg -i ./WeChatLinux_x86_64.deb
 ```
-
-- RHEL 系列命令行安装
-dnf 装 rpm 包
+#### 红帽系
+使用 `dnf` 装 `rpm` 包
 
 ```bash
 sudo dnf install ./WeChatLinux_x86_64.rpm -y
+```
+
+#### Arch 系
+
+使用 `pacman` 装 `pacman` 包
+
+```bash
+sudo pacman -U pacman包
 ```
 
 ## 聊天应用
