@@ -108,11 +108,12 @@ nav:
       - concepts/linux/distro.md
     - 操作系统:
       - concepts/operating_system/bios.md
+      - concepts/operating_system/secure_boot.md
+      - concepts/operating_system/boot_loader.md
       - concepts/operating_system/disk_partition_table.md
       - concepts/operating_system/partition.md
       - concepts/operating_system/file_system.md
       - concepts/operating_system/mounting.md
-      - concepts/operating_system/boot_loader.md
     - 包管理:
       - concepts/package_managers/apt.md
       - concepts/package_managers/dnf.md
