@@ -106,6 +106,7 @@ nav:
     - Linux基础:
       - concepts/linux/free_software.md
       - concepts/linux/distro.md
+      - concepts/linux/mirrors.md
     - 操作系统:
       - concepts/operating_system/bios.md
       - concepts/operating_system/secure_boot.md
