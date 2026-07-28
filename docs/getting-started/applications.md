@@ -6,11 +6,10 @@
 
 ## 安装注意事项
 
-> [!TIP]
-> 请选择适用于你的发行版的软件安装包
-> Debian 系列: debian, mint, ubuntu, kubuntu等 => `deb包`
-> RHEL 系列: rhel, fedora, rocky等 => `rpm包`
->
+- 软件包选择
+  - Debian 系列: debian, mint, ubuntu, kubuntu等 => `deb包`
+  - RHEL 系列: rhel, fedora, rocky等 => `rpm包`
+
 > 某些发行版支持双击安装包进行安装， 使用文件管理器和鼠标即可
 
 - Debian 系列命令行安装
