@@ -108,6 +108,7 @@ Steam也可以用于运行Windows软件。但我们并**不建议**通过这种�
 要添加Windows软件，您可以选择上方状态栏的游戏-添加非Steam游戏-浏览，选择对应的安装程序。
 
 安装好程序后，要打开应用，请更改设置-目标：
+
 - Flatpak版本：`~/.var/app/com.valvesoftware.Steam/data/Steam/steamapps/compatdata/游戏Id/pfx/drive_c/` 在该目录下找到安装路径的可执行文件
 - 包版本：`~/.local/share/Steam/steamapps/compatdata/游戏Id/pfx/drive_c/` 在该目录下找到安装路径的可执行文件
 
