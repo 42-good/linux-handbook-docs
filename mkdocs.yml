@@ -77,10 +77,10 @@ plugins:
       type: datetime
       locale: zh
       fallback_to_build_date: true
-  - git-committers:
-      repository: LinuxCabin/linux-handbook
-      branch: main
-      token: !ENV DEPLOY_KEY
+#  - git-committers:
+#      repository: LinuxCabin/linux-handbook
+#      branch: main
+#      token: !ENV DEPLOY_KEY
   - minify:
       minify_html: true
       minify_css: true
@@ -160,4 +160,7 @@ nav:
       - compatibility/windows/wine.md
       - compatibility/windows/steam.md
     # - 跨发行版:
+  - 应用:
+    - applications/openclaw.md
+    - applications/miniconda.md
   - 关于: about.md
