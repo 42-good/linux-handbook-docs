@@ -20,7 +20,7 @@ Miniconda 跟Anaconda的最大区别就是砍掉了很多预装的东西，比�
 
 选择 Linux，选择右边这个 Miniconda x86 版本 (大多数电脑都是x86, 但是macBook不是，在这之前确认自己的架构)。
 
-![Anaconda安装脚本下载](../img/miniconda/pic1.png)
+![Anaconda安装脚本下载](../../img/miniconda/pic1.png)
 
 - 使用bash执行脚本
 

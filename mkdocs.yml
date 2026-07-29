@@ -9,6 +9,7 @@ validation:
   nav:
     omitted_files: info
 
+strict: true
 
 theme:
   name: material
@@ -162,5 +163,8 @@ nav:
     # - 跨发行版:
   - 应用:
     - applications/openclaw.md
-    - applications/miniconda.md
+    - 开发相关:
+      - applications/programming/cpp.md
+      - applications/programming/python.md
+      - applications/programming/miniconda.md
   - 关于: about.md
