@@ -1,14 +1,17 @@
 # Hyprland
 
+![Hyprland](../../img/hyprland.svg)
+
+
 [官方Wiki（英文）](https://wiki.hypr.land/)
 
-配置文件: `~/.config/hypr/hyprland.conf`
-
-![Hyprland](https://hypr.land/ricing_competitions/1/flicko.webp)
+配置文件: `~/.config/hypr/hyprland.lua`
 
 ## 概述
 
 Hyprland 是一款在 Linux 社区，尤其是喜欢定制桌面环境的用户中非常热门的**动态平铺 Wayland 合成器**。它之所以特别，是因为它试图在强大的功能、炫酷的视觉效果和高度可定制性之间找到一个很好的平衡点。
+
+![Hyprland](https://hypr.land/ricing_competitions/1/flicko.webp)
 
 ## 特性
 

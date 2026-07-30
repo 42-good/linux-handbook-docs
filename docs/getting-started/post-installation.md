@@ -23,7 +23,7 @@
 
 [Flatpak](../concepts/package_managers/flatpak.md)是新一代Linux软件管理工具。其采用沙箱式设计，使得软件能够兼容多数发行版。并且，基于Flatpak的Flathub是Linux上极其重要的应用商店，深度集成于KDE Discover, GNOME。
 
-**对于用户软件，我们推荐您使用Flatpak或[AppImage](../concepts/package_managers/appimage.md)进行安装。**
+**对于用户软件，我们推荐您使用[Flatpak](../concepts/package_managers/flatpak.md)或[AppImage](../concepts/package_managers/appimage.md)进行安装。**
 
 您可以通过包管理器或者桌面环境自带的应用商店安装Flatpak。同样的，Flathub也需要换源。
 

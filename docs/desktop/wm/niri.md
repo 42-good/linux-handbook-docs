@@ -1,16 +1,17 @@
 # Niri
 
-[官方Wiki（英文，Github）](https://github.com/niri-wm/niri/wiki/)
+![Niri](https://docs.akass.cn/niri/logo/niri-logo.svg)
 
-[翻译版Wiki](https://docs.akass.cn/niri/)
+[官方Wiki（英文，Github）](https://github.com/niri-wm/niri/wiki/) [翻译版Wiki](https://docs.akass.cn/niri/)
 
 配置文件: `~/.config/niri/config.kdl`
-
-![Niri](https://www.phoronix.net/image.php?id=2026&image=niri_2604_2)
 
 ## 概述
 
 Niri是一个以滚动平铺为核心理念的Wayland合成器。它用Rust编写，将窗口在无限水平长条上按列布局，打开新窗口不会改变现有窗口大小，旨在提供流畅、有组织的工作体验，目前可稳定用于日常使用。
+
+![Niri](https://www.phoronix.net/image.php?id=2026&image=niri_2604_2)
+
 
 ## 安装
 
