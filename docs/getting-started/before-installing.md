@@ -30,16 +30,16 @@
       <span style="position: absolute; left: 2px; bottom: 2px;">难易度</span>
       <span style="position: absolute; right: 2px; top: 2px;">激进度</span>
     </td>
-    <td>激进</td>
-    <td>偏激进</td>
-    <td>偏保守</td>
-    <td>保守</td> 
+    <td>前沿</td>
+    <td>偏前沿</td>
+    <td>偏稳定</td>
+    <td>稳定</td> 
   </tr>
   <tr>
     <td>困难</td>
-    <td><a href=/distros/arch/archlinux>Arch Linux</a> / <a href=/distros/arch/artixlinux>Artix Linux</a> / NixOS Unstable</td>
+    <td><a href=/distros/arch/archlinux>Arch Linux</a> / <a href=/distros/arch/artixlinux>Artix Linux</a> / <a href=/distros/nixos>NixOS Unstable</a></td>
     <td>Guix Linux</td>
-    <td>Gentoo Linux / NixOS Stable</td>
+    <td>Gentoo Linux / <a href=/distros/nixos>NixOS Stable</a></td>
     <td>LFS (Linux From Scratch)</td>
   </tr>
   <tr>
@@ -104,13 +104,13 @@
 
 我们建议您选择最新，并且预装您所需要的桌面环境的版本。
 
-???+ note "一些常见的发行版标签"
+???+ example "一些常见的发行版标签"
     - x86-64/amd64: 大多数PC（一般选这个）
     - arm64/aarch64/armv8l/armv8a: 树莓派、IoT等设备
     - desktop: 带桌面环境的系统（推荐）
     - server: 服务器用系统，无桌面环境
 
-???+ note "一些桌面环境/窗口管理器"
+???+ example "一些桌面环境/窗口管理器"
     - [KDE](../desktop/de/kde.md) (K Desktop Environment): 贴近Windows操作逻辑，有高度的自定义性与丰富主题
       ![KDE](https://fedoraproject.org/assets/images/kde-edition/background_plasma.png)
     - [GNOME](../desktop/de/gnome.md): 贴近macOS界面，优雅、简洁，有多样的扩展（可能需要安装某些扩展、软件包来获得较好的桌面体验）
@@ -125,7 +125,7 @@
 ## 烧录镜像
 
 在下载对应镜像后，您需要下载对应的烧录软件来将系统镜像烧录到U盘中。
-???+ note "一些比较热门的烧录软件"
+???+ example "一些比较热门的烧录软件"
     - [Ventoy](https://www.ventoy.net/cn/download.html)（推荐）
     ??? note "Ventoy使用指南"
         在开始本教程之前，请准备一个**足够大**的 U 盘。足够大意味着**可以保存您要使用的的全部系统镜像。**请注意，**这将清除 U 盘上的所有数据**。

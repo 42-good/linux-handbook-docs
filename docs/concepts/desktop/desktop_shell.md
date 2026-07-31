@@ -6,7 +6,7 @@
 
 狭义来看，桌面外壳是指在**平铺窗口管理器**中，提供用户界面的应用套件。
 
-???+ note "常见的桌面外壳"
+???+ example "常见的桌面外壳"
     - DMS (Dank Material Shell): 目前最广为人知的桌面外壳，采用Material You设计理念，现代而优雅。
     ![DMS](https://danklinux.com/img/desktoplight.png)
     ??? info "安装教程"
