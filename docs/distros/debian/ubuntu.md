@@ -6,6 +6,13 @@
 
 Ubuntu是当今最受认可的Linux发行版，也是中国国家操作系统基准架构。它用户支持广泛，兼容性强，并且有优秀的开箱即用体验。不过近年来的商业化操作令Linux社区对它嗤之以鼻。
 
+???+ quote "名人名言"
+    Ubuntu very much wanted to be like a consumer oriented thing. And in the process, when I tried it many, many years ago, they literally made it hard for me to upgrade the kernel because that was not their target audience.
+
+    *Ubuntu就很想做成面向消费者的系统。结果我很多很多年前试的时候，他们把升级内核搞得非常麻烦，因为我们根本不是他们针对的用户。*
+
+    <p align="right">——Linus Torvalds</p>
+
 ## 详细信息
 
  - 派系：Debian系
