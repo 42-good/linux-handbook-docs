@@ -6,6 +6,27 @@
 
 Fedora是一款前沿、开放的发行版，有着广泛的社区支持，并且提供多种变体可供选择。
 
+???+ quote "名人名言"
+    They've been very closely aligned to kernel developers. They make things easier.
+    
+    *他们和内核开发者的关系很紧密，很多事做起来更顺。*
+
+    <p align="right">——Linus Torvalds</p>
+
+    ??? quote "玩笑"
+
+        Linus: When I'm emperor and king of the world...
+        
+        Elijah: It will be Fedora?
+
+        Linus: That will be.
+
+        *Linus: 等我当了世界皇帝的时候...*
+
+        *Elijah: 就只许用Fedora了？*
+
+        *Linus: 就只许用它了。*
+
 ## 详细信息
 
  - 派系：红帽系

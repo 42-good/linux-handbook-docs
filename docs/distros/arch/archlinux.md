@@ -6,6 +6,21 @@
 
 Arch Linux 是 Linux 社区中最受欢迎的独立滚动更新（Rolling Release）发行版之一。它秉承 KISS（Keep It Simple, Stupid）哲学，不预装繁杂的软件和默认桌面，将系统的完全掌控权交还给用户。虽然其全命令行安装的方式对新手门槛较高，但它拥有所有GNU/Linux发行版中最强大的知识库 Arch Wiki、极度丰富的 AUR 软件仓库以及“一次安装，终身更新”的特性，是极客和深度 Linux 爱好者的不二之选。
 
+???+ quote "名人名言"
+      And at the same time, there are the really tech oriented ones where you compile your own, everything you compile your own distro. And again, that was not geared for me.
+
+      ...
+
+      I want a distro that just installs and just works.
+
+      *另一方面，也有那种特别“技术向”的发行版，那种什么都要自己编译，从零搞起的发行版，同样也不适合我。*
+
+      *...*
+
+      *我想要的是开箱即用的发行版。*
+
+      <p align="right">——Linus Torvalds</p>
+
 ## 详细信息
 
  - 派系：Arch系

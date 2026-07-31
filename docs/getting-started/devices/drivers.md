@@ -42,6 +42,13 @@ AMD不同架构的显卡需要不同驱动，但大多数使用`amdgpu`（专有
 
 ### NVIDIA
 
+???+ quote "名人名言"
+    So NVIDIA, fuck you.
+
+    *所以，英伟达，去你妈的。*
+
+    <p align="right">——Linus Torvalds</p>
+
 NVIDIA对Linux用户的驱动在23年以来，支持日渐完善，NVIDIA显卡目前在极个别方面不足外，几乎已经追平Windows。目前NVIDIA在最新驱动开源部分非关键的内核空间部分，即nvidia-open。但其用户空间工具（如CUDA，DLSS等）依然闭源，即nvidia-utils。
 
 同样，NVIDIA不同架构的显卡也需要不同的驱动，但是NVIDIA相对AMD更为复杂
@@ -79,7 +86,7 @@ Intel网卡在Linux系统下享有业界相对顶级的原生支持。绝大多�
 
 Broadcom（博通）无线网卡在Linux系统下的支持情况因芯片型号而异。部分网卡已原生集成于内核中，开箱即用，而大部分老旧或特定型号（如BCM43142等）需手动安装专属闭源驱动（broadcom-sta）或配置固件。
 
-???+info "目前的支持情况"
+???+ info "目前的支持情况"
     - 原生支持芯片(brcmsmac/brcmfmac)：大多数较新的Broadcom无线网卡由内核中的开源驱动直接支持，这类网卡通常即插即用。
     - 需要专有驱动的芯片(broadcom-sta/wl)：例如BCM4311, BCM4312, BCM4313, BCM43142, BCM4360等。这类设备在主流发行版（如 Ubuntu, Debian, Arch Linux 等）中需要安装broadcom-wl或 bcmwl-kernel-source驱动包。
     - 极其老旧或部分极新芯片：可能仅有Windows驱动

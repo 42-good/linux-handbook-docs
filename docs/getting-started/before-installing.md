@@ -17,6 +17,14 @@
 
 [发行版](../concepts/linux/distro.md)选择至关重要，这会从根本上决定您的日常使用体验。我们建议您参考网络资料与用户评价进行选择，或者被其他人“带师”。
 
+???+ quote "名人名言"
+    I mean, I think the fragmentation has been a huge disadvantage over the years.
+
+    *我觉得这种碎片化，近年来确实是一个巨大的劣势。*
+
+    <p align="right">——Linus Torvalds</p>
+
+
 !!! warning "警告"
     如果您初入Linux，我们建议您选择Debian系或红帽系发行版试水。**我们不建议任何新手用户直接使用Arch Linux！！！**
 
@@ -69,7 +77,7 @@
 或者，你也可以试试[Distrochooser（英文）](https://distrochooser.de/)或是我们制作的[趣味测试](https://lati-fun.pages.dev/)，虽然只是个demo版本。 （部署于Cloudflare Pages，访问可能缓慢）
 
 
-???+ note "发行版=外观？"
+???+ question "发行版=外观？"
 
     请注意：**如果您的想法是“这个发行版很漂亮，我选这个”**，那么您可能听信了某些传教士的“一面之词”。
 
@@ -83,7 +91,6 @@
     - [桌面环境](../concepts/desktop/de.md)
     - [窗口管理器](../concepts/desktop/wm.md)
     - [平铺式桌面](../concepts/desktop/tiling_desktop.md)
-
 
 ## 调配分区
 
