@@ -164,6 +164,7 @@ nav:
       - compatibility/windows/steam.md
     # - 跨发行版:
   - 应用:
+    - applications/vim.md
     - applications/zsh.md
     - applications/openclaw.md
     - 开发相关:
