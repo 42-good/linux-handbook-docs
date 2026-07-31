@@ -10,7 +10,7 @@ LinuxCabin是由[@Fangcat_Dev](https://space.bilibili.com/588672425)与[@13-trix
   
 QQ: 2950966704
   
-Matrix: @fangcat-dev:fedora.im
+Matrix: [@fangcat_dev:mozilla.org](https://matrix.to/#/@fangcat_dev:mozilla.org)
 
 E-Mail: [f20091219@outlook.com](mailto:f20091219@outlook.com)
 
@@ -20,7 +20,7 @@ BiliBili: [Fangcat_Dev](https://space.bilibili.com/588672425)
   
 QQ: 1513463007
   
-Matrix: @13-trixie:matrix.org
+Matrix: [@13-trixie:matrix.org](https://matrix.to/#/@13-trixie:matrix.org)
 
 - Outlook Main E-Mail（recommended）: [HFhaofan@outlook.com](mailto:HFhaofan@outlook.com)
 - Google E-Mail（recommended）: [breezearch11@gmail.com](mailto:breezearch11@gmail.com)
