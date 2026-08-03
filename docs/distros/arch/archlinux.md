@@ -33,10 +33,12 @@ Arch Linux 是 Linux 社区中最受欢迎的独立滚动更新（Rolling Releas
     - USTC: https://mirrors.ustc.edu.cn/archlinux/iso/
     - MirrorZ: https://mirrors.cernet.edu.cn/archlinux/iso/
  - 包管理器：[pacman](../../concepts/package_managers/pacman.md)
+
 !!! warning "警告"
-   Arch 严禁“部分升级”（Partial Upgrade）。请勿在未同步升级全系统的情况下单独安装或更新某个软件，否则极易导致系统依赖断裂造成所谓的 **“滚挂”** ！
-   
-   在每次更新系统时，请一定阅读Arch Linux官网新闻，以查阅是否需要手动干预的软件包。
+    Arch 严禁“部分升级”（Partial Upgrade）。请勿在未同步升级全系统的情况下单独安装或更新某个软件，否则极易导致系统依赖断裂造成所谓的 **“滚挂”** ！
+      
+    在每次更新系统时，请一定阅读Arch Linux官网新闻，以查阅是否需要手动干预的软件包。
+
  - 更新方式：滚动
  - 自动换源：是
  - 图形安装界面：否
