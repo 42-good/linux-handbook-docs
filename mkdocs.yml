@@ -47,6 +47,7 @@ theme:
     - content.action.view
     - content.code.copy
     - content.tooltips
+    - content.footnote.tooltips
     - announce.dismiss
 
 markdown_extensions:
@@ -56,7 +57,11 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.magiclink
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed
   - pymdownx.tasklist
   - pymdownx.emoji
@@ -137,11 +142,13 @@ nav:
   - 发行版:
     - distros/distro.md
     - Debian系:
+      - distros/debian/graph.md
       - distros/debian/debian.md
       - distros/debian/ubuntu.md
       - distros/debian/linuxmint.md
       - distros/debian/deepin.md
     - 红帽系:
+      - distros/rhel/graph.md
       - distros/rhel/fedora.md
       - distros/rhel/rhel.md
       - distros/rhel/rocky.md
