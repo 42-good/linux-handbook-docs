@@ -102,7 +102,7 @@ Fedora由于版权限制，无法内置H264/H265编解码器，因此需要手�
      - USTC: https://mirrors.ustc.edu.cn/help/rpmfusion.html
      - MirrorZ: https://help.mirrors.cernet.edu.cn/rpmfusion/
 
-在添加源后，请在终端运行`sudo dnf group install Multimedia`来安装编解码器。
+在添加源后，请在终端运行`sudo dnf group install multimedia`来安装编解码器。
 
 ### Fedora Flatpak仓库
 
@@ -114,3 +114,13 @@ Fedora由于版权限制，无法内置H264/H265编解码器，因此需要手�
      Fedora的不可变版本中，有部分系统应用的来源为Fedora官方Flatpak仓库。所以，我们建议您在提示移除源会删除软件时，记录好将要删除软件的包名。在删除后，您可以通过官方Flathub仓库重新安装。
 
      部分包名带有`fedora`字样的软件包提示未找到是正常现象。
+
+### 多余内核
+
+Fedora的dnf不会自动删除多余的内核，因而需要通过修改`/etc/dnf/dnf.conf`来实现。
+
+```bash
+sudo nano /etc/dnf/dnf.conf
+```
+
+在`[main]`下方追加`installonly_limit=2`即可。之后，您可以运行`sudo dnf autoremove`来移除多余内核。

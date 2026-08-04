@@ -96,7 +96,7 @@ ibus-rime
 !!! warning "网络问题"
     Plum会从Github拉取对应配方仓库，所以该方法对网络环境有要求。
 
-以下脚本来自雾凇拼音README.md。
+以下脚本来自雾凇拼音README.md，略有更改。
 
 ```bash
 # 需要安装 git 及 bash
@@ -108,7 +108,7 @@ git clone https://github.com/rime/plum.git plum
 
 # 2. 安装雾凇拼音到默认客户端（Weasel，Squirrel，iBus-rime），更新词库只要执行这一步，3、4 步不需要。
 # 如使用其他客户端请手动指定 rime_dir 变量为对应的用户目录。
-# e.g. rime_dir="$HOME/.config/fcitx5/rime" bash rime-install iDvel/rime-ice
+# e.g. rime_dir="$HOME/.local/share/fcitx5/rime" bash rime-install iDvel/rime-ice
 cd ~/plum
 bash rime-install iDvel/rime-ice
 

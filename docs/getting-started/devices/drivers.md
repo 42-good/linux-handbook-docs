@@ -21,6 +21,7 @@ Intel显卡（包括传统的核显、锐炫Arc独显以及最新的酷睿Ultra�
 | Xe | 第二代锐炫（ArcB系列独显（Battlemage架构））、酷睿Ultra核显（LunarLake(Xe2)、ArrowLake）、未来架构（PantherLake/NovaLake(Xe3) | 下一代官方默认的现代化驱动，自Linux6.8内核起正式内置，针对新架构默认启用，代码效率和吞吐量极高 |
 
 Intel显卡在专业用途下可能需要的库有：
+
 - 专有驱动：`intel-compute-runtime`、`intel-opencl`
 - 自由驱动：`mesa-va-drivers`
 
