@@ -34,3 +34,9 @@ LinuxCabin是一个志愿者组织，本教程由对Linux抱有热情的用户�
 - [Linux 101](https://101.lug.ustc.edu.cn/) / [Linux 201](https://201.ustclug.org/)
 - [Arch Linux 中文维基](https://wiki.archlinuxcn.org/)
 - [Shorin的Arch Linux教程](https://github.com/SHORiN-KiWATA/Shorin-ArchLinux-Guide)
+
+## 贡献者们
+
+<a href="https://github.com/LinuxCabin/linux-handbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=LinuxCabin/linux-handbook" />
+</a>
