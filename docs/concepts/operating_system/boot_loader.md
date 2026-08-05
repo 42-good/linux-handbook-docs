@@ -91,7 +91,22 @@ sudo refind install --shim /boot/efi/一般为发行版名称/shimx64.efi
 更多选项，建议您参考[Arch Wiki](https://wiki.archlinuxcn.org/wiki/REFInd)。
 
 !!! warning "警告"
-    我们不建议您在安装rEFInd之后贸然卸载GRUB。在部分发行版内，GRUB可能受包管理器保护。
+    我们不建议您在安装rEFInd之后贸然卸载GRUB。rEFInd的识别能力有限，若您在安装系统时选择单独分区`/boot`则**可能无法直接通过vmlinuz绕过GRUB启动**。
+    
+    在部分发行版内，GRUB可能受包管理器保护。
+
+    ??? note "卸载GRUB"
+        此处以Fedora为例。要卸载GRUB，首先需要移除系统对GRUB包的保护。
+
+        ```bash
+        sudo rm /etc/dnf/protected.d/{shim,grub2*}.conf
+        ```
+
+        之后，移除GRUB。
+
+        ```bash
+        sudo dnf remove grub* shim*
+        ```
 
 #### 美化
 
