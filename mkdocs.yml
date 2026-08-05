@@ -170,7 +170,8 @@ nav:
     - Win & Linux:
       - compatibility/windows/wine.md
       - compatibility/windows/steam.md
-    # - 跨发行版:
+    - 跨发行版:
+      - compatibility/inter-distros/distrobox.md
   - 应用:
     - applications/vim.md
     - applications/zsh.md
