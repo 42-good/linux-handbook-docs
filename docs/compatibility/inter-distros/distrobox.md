@@ -1,6 +1,6 @@
-# DistroBox
+# Distrobox
 
-[DistroBox](https://distrobox.it/)是用于管理镜像的工具，它整合了`podman`、`docker`与`lilipod`，通过虚拟化技术，使得你能够在容器中无缝运行其他任何Linux发行版，并且能够运行不同发行版所适配的应用。
+[Distrobox](https://distrobox.it/)是用于管理镜像的工具，它整合了`podman`、`docker`与`lilipod`，通过虚拟化技术，使得你能够在容器中无缝运行其他任何Linux发行版，并且能够运行不同发行版所适配的应用。
 
 ## 安装
 
