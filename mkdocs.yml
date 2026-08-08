@@ -117,6 +117,7 @@ nav:
       - concepts/linux/distro.md
       - concepts/linux/mirrors.md
       - concepts/linux/shell.md
+      - concepts/linux/rolling_update.md
     - 操作系统:
       - concepts/operating_system/bios.md
       - concepts/operating_system/secure_boot.md
@@ -173,9 +174,10 @@ nav:
       - compatibility/windows/steam.md
     - 跨发行版:
       - compatibility/inter-distros/distrobox.md
-  - 应用:
+  - 应用与工具:
     - applications/vim.md
     - applications/zsh.md
+    - applications/ssh.md
     - applications/openclaw.md
     - 开发相关:
       - applications/programming/cpp.md
