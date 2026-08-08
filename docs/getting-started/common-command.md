@@ -15,6 +15,13 @@
 
 ## 常见指令
 
+???+ info "包管理器相关"
+    包管理器相关指令，请查看概念-包管理一节。
+    - [Apt](../concepts/package_managers/apt.md)
+    - [Dnf](../concepts/package_managers/dnf.md)
+    - [Pacman](../concepts/package_managers/pacman.md)
+    - [Flatpak](../concepts/package_managers/flatpak.md)
+
 ### sudo
 
 以超级管理员（root）身份运行某指令，后面可以接其他指令。
