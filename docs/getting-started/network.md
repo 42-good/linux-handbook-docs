@@ -11,7 +11,7 @@
 - https://gh-proxy.com/ （仅加速文件下载与仓库克隆，不加速用户界面）
 - [Watt Toolkit](https://steampp.net/)
 
-## Docker加速
+## Docker/Podman加速
 
 - https://1ms.run/
 - https://xuanyuan.cloud/free
