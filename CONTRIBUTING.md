@@ -29,6 +29,8 @@ xxxxxx
 
 ## PR贡献的工作流？
 
+### 安装必要依赖
+
 请确保您的电脑已经安装了最新版的Python，并被添加到PATH中。
 
 在clone仓库后，请您执行来安装必要的库：
@@ -37,7 +39,27 @@ xxxxxx
 pip install -r requirements.txt
 ```
 
-（注：为防止python3安装的依赖污染系统环境导致系统不稳定，建议创建venv虚拟环境）
+（注：为防止python3安装的依赖污染系统环境导致系统不稳定，建议[创建venv虚拟环境](#venv虚拟环境)）
+
+### venv虚拟环境
+
+#### 如果您直接使用python
+```
+python -m venv .venv
+source .venv/bin/active
+pip install -r requirements.txt
+```
+
+#### uv
+```
+uv venv
+source .venv/bin/active
+uv pip install -r requirements.txt
+```
+
+### 构建
+
+> 如果您使用[虚拟环境](#venv虚拟环境)，请不要退出此环境
 
 我们的文章全部位于/docs目录下。如果您添加了之前不存在的章节，请您修改`mkdocs.yml`下的`nav`（照葫芦画瓢就行）来使得您的内容显示在侧边栏导航。
 
