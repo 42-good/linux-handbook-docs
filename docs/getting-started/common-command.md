@@ -31,6 +31,8 @@ command [options] [arguments]
 
     不过，后续教程的部分操作（如[引导美化](../concepts/operating_system/boot_loader.md)）可能会用到这些指令。
 
+    另外，如果您希望深入了解部分命令的完整使用方法，可以尝试[man](#man)或[info](#info)等命令（但不是所有命令都提供这样的文档）
+
 ???+ info "包管理器相关"
     包管理器相关指令，请查看概念-包管理一节。
     - [Apt](../concepts/package_managers/apt.md)
@@ -123,6 +125,7 @@ command [options] [arguments]
 用于（在基于systemd的发行版中）管理系统服务。
 
 例如：
+
 - `sudo systemctl start xxx` 启动某服务
 - `sudo systemctl stop xxx` 终止某服务
 - `sudo systemctl enable xxx` 启用某服务（自启动，不会立即启动）
@@ -140,12 +143,74 @@ command [options] [arguments]
     例如：777代表所有人都可读取，更改，执行该文件，774代表仅所有者与用户组能够读取，更改，执行，其他用户仅可读取。
 
 例如：
+
 - `chmod 777 file` 使得所有人都可读取，更改，执行该文件。
 - `chmod -R 777 dir` 递归目录，使得所有人都可读取，更改，执行该目录下的文件与文件夹。
 
 chmod中间的数字表示权限。
 
 chmod的用法较为复杂，您也可以参考[Runoob的教程](https://www.runoob.com/linux/linux-comm-chmod.html)。
+
+### man
+
+用于查看部分命令的使用手册
+
+???+ question "我是否适合阅读man手册？"
+    1. 有耐心面对纯英文的文档
+    2. 具备一定的英语阅读能力
+    3. 善于使用搜索引擎
+    4. 您使用的软件提供了对应的man-page
+    5. 您正在使用命令行程序
+
+???+ question "好像有的命令在别人那里能搜索到，我搜不到，为什么？"
+    不同发行版对man-page的处理略有差异，像[alpine linux](https://www.alpinelinux.org)
+    这样的发行版将软件包的文档拆分为独立的`-doc`包。
+    同时，对于基础软件包，他们可能直接以类似于`man-pages` (archlinux) 的形式提供。
+
+???+ tip "中文man-page"
+    部分软件包会提供多语言的man-page，您可以关注您所使用的发行版是否将其打包并提供。
+    例如[archlinux](https://wiki.archlinuxcn.org/wiki/Man_%E6%89%8B%E5%86%8C#%E5%AE%89%E8%A3%85)提供了`man-pages-zh_cn`包
+
+> man手册（即man-page）在类unix系统中是较为常用的本地手册，
+> 提供绝大多是系统基础命令行软件的使用文档，
+> 甚至编程时需要的api文档。
+
+man命令的调用方式类似于
+```bash
+man [options] [section] page
+```
+
+> 使用中括号包裹的内容是可选的
+
+其中
+`[options]` 是以`-`开头的**选项**，
+`[section]`则是不同页面的**段**，
+`page`是您希望查看的**页面**
+
+例如：
+
+- `man -k abc` 用于搜索命令、api文档，以及对应页面存在的不同段
+- `man 1 cp`或`man cp` 查看命令文档
+- `man 3 strcmp` 查看c语言中`strcmp`函数的文档
+
+> 如果您乐意钻研，我们强烈建议您学习基本的英语知识，阅读常用软件的man-page，这是您深入学习linux的一个重要方法
+
+### info
+
+用于查看部分命令的使用文档，类似于[man](#man)
+> 不是所有程序都提供info文档，请善用搜索引擎
+
+???+ question "我是否适合阅读info文档？"
+    1. 有耐心面对纯英文的文档
+    2. 具备一定的英语阅读能力
+    3. 善于使用搜索引擎
+    4. 您使用的软件提供了对应的texinfo文件
+    5. 您正在使用命令行程序
+
+例如：
+
+- `info info`: 查看info自己的使用文档
+- `info gcc`: 查看gcc命令的完整使用文档（gcc的man-page是不完整的，它会在**SEE ALSO**中指引您阅读info文档）
 
 ## 系统维护工具
 
