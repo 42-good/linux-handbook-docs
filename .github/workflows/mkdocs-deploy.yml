@@ -48,7 +48,7 @@ jobs:
           TARGET_REPO: https://github.com/LinuxCabin/handbook-site
           TARGET_BRANCH: gh-pages
           DEPLOY_TOKEN: ${{ secrets.DEPLOY_KEY }}
-          CUSTOM_DOMAIN: hb.091209.xyz
+          CUSTOM_DOMAIN: hb.linuxcabin.top
         run: |
           cd site
           echo "${{ env.CUSTOM_DOMAIN }}" > CNAME
