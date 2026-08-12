@@ -16,7 +16,7 @@ Miniconda 跟Anaconda的最大区别就是砍掉了很多预装的东西，比�
 ## 安装步骤
 
 - 下载官方安装脚本
-访问官方下载链接（https://www.anaconda.com/download/success）
+访问官方下载链接（<https://www.anaconda.com/download/success）>
 
 选择 Linux，选择右边这个 Miniconda x86 版本 (大多数电脑都是x86, 但是macBook不是，在这之前确认自己的架构)。
 
@@ -39,9 +39,9 @@ source ~/.bashrc
 
 - 配置镜像源
 
-很多同志连官方源不太流畅，推荐换成清华镜像源。
+很多同志连官方源不太流畅，推荐换成中科大。
 
-访问这个链接进行配置即可：https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
+访问这个链接进行配置即可： <https://mirrors.ustc.edu.cn/help/anaconda.html>
 
 一般是创建一个 ~/.condarc 文件然后把 channels 开头的那些东西复制粘贴进去即可。
 
@@ -56,7 +56,7 @@ nano ~/.condarc
 
 我们很多时候还是使用 pip 来安装的，所以这里也需要配置一下pip的镜像源
 
-访问这个网址进行配置 https://mirrors.tuna.tsinghua.edu.cn/help/pypi/
+访问这个网址进行配置 <https://mirrors.ustc.edu.cn/help/pypi.html>
 **只需要执行设为默认的命令即可**, 剩下的不需要配置。
 
 - 创建环境测试
