@@ -55,12 +55,12 @@
 
 这是由于Windows采用的时间制是本地时间，也就是BIOS设置中的时间，而Linux默认使用UTC时间（格林尼治标准时间），由于中国属于GMT+8时区，每次切换系统都会导致8个小时的差异。
 
-要解决这个问题也很简单，在终端中输入：`timedatectl set-local-rtc 1`即可。
+要解决这个问题也很简单，请在Windows下以管理员权限启动PowerShell，并执行：`reg add "HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation" /v 。
 
 !!! warning "已知问题"
-    Linux下set-local-rtc设置后，会导致夏令时无法自动切换。而在Windows下启用RealTimeIsUniversal则不存在该问题。
+    您也可以在Linux终端中输入：`timedatectl set-local-rtc 1`来解决。
 
-    如果想要解决，请在Windows下以管理员权限启动PowerShell，并执行：`reg add "HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /t REG_DWORD /d 1 /f`
+    但是，Linux下set-local-rtc设置后，会导致夏令时无法自动切换，并且可能出现其他问题。而在Windows下启用RealTimeIsUniversal则不存在该问题。
 
     **本方案与以上方案选择一个即可，请不要两个同时操作。**
 
