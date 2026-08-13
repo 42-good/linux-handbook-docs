@@ -48,7 +48,7 @@ Emacs是一个[自由](https://www.gnu.org/philosophy/free-sw.html)的编辑器,
 
 **Emacs的配置文件位于~/.emacs.d/或~/.config/emacs(更老的Emacs版本使用~/.emacs作为配置目录),其名称为init.el,使用Elisp作为配置语言**
 
-**由于Emacs的配置过于纷杂繁复,适合Linux新手,所以只做文档与视频的推荐**
+**由于Emacs的配置过于纷杂繁复,不适合Linux新手,所以只做文档与视频的推荐**
 
 1.[Emacs轻奢之路](https://www.bilibili.com/video/BV1T64y1R7EL/)
 2.[21天学会Emacs 2022年版本](https://www.bilibili.com/video/BV12P4y1j7EL/)
