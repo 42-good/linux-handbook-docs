@@ -176,6 +176,7 @@ nav:
     - 跨发行版:
       - compatibility/inter-distros/distrobox.md
   - 应用与工具:
+    - applications/emacs.md
     - applications/vim.md
     - applications/zsh.md
     - applications/ssh.md
