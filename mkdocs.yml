@@ -168,6 +168,7 @@ nav:
     - 窗口管理器:
       - desktop/wm/hyprland.md
       - desktop/wm/niri.md
+      - desktop/wm/i3.md
   - 兼容性:
     - Win & Linux:
       - compatibility/windows/wine.md
