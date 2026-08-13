@@ -17,7 +17,7 @@ Emacs是一个[自由](https://www.gnu.org/philosophy/free-sw.html)的编辑器,
 ## 安装
 
 - Debian系: `sudo apt install emacs`
-- Readhat系: `sudo dnf install emacs`
+- 红帽系: `sudo dnf install emacs`
 - Arch系: `sudo pacman -S emacs`
 
 ## 使用(默认快捷键)
