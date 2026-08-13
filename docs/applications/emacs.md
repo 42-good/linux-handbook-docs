@@ -6,7 +6,7 @@
 
 [官网](https://www.gnu.org/software/emacs/)
 
-**Emacs的配置文件位于~/.emacs.d/或~/.config/emacs(更老的Emacs版本使用~/.emacs作为配置目录),其名称为init.el,使用Elisp作为配置语言**
+**Emacs的配置文件位于`~/.emacs.d/`或`~/.config/emacs`(更老的Emacs版本使用`~/.emacs`作为配置目录),其名称为init.el,使用Elisp作为配置语言**
 
 ## 梗概
 
