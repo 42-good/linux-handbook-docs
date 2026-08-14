@@ -12,7 +12,7 @@
 
 **注意:如果您使用NVIDIA的闭源驱动,您无法使用Sway,Sway也不会添加关于NVIDIA的支持**
 
-## 梗概
+## 概述
 
 Sway是一个平铺窗口管理器,采用Wayland显示协议,采用[MIT许可证](https://github.com/swaywm/sway?tab=MIT-1-ov-file)发布,常被认为是i3的Wayland版本,[i3](https://hb.linuxcabin.top/desktop/wm/i3/)的配置文件几乎可以直接替代,具体可看官方文档,
 
