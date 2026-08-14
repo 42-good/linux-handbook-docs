@@ -37,7 +37,6 @@ Sway是一个平铺窗口管理器,采用Wayland显示协议,采用[MIT许可证
 
 ## 配置
 
-**Sway的配置文件在/etc/sway下,其名称为config,应复制到~/.config/sway下**
 
 您可以使用以下语法配置Mod+一个键打开一个软件：
 
