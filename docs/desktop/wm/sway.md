@@ -1,6 +1,6 @@
 # Sway
 
-**Sway的配置文件在/etc/sway下,其名称为config,应复制到~/.config/sway下**
+**Sway的配置文件在`/etc/sway`下,其名称为`config`,应复制到`~/.config/sway`下**。
 
 ![sway](https://swaywm.org/logo.png)
 
