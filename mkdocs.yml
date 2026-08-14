@@ -169,6 +169,7 @@ nav:
       - desktop/wm/hyprland.md
       - desktop/wm/niri.md
       - desktop/wm/i3.md
+      - desktop/wm/sway.md
   - 兼容性:
     - Win & Linux:
       - compatibility/windows/wine.md
